@@ -22,10 +22,10 @@
             </objects>
             <point key="canvasLocation" x="-198.5" y="380.5"/>
         </scene>
-        <!--TweetVC-->
+        <!--Peeks Feed-->
         <scene sceneID="KIC-5J-Ar6">
             <objects>
-                <viewController id="j5I-qf-omQ" customClass="TweetVC" customModule="PeekDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="j5I-qf-omQ" customClass="TweetVC" customModule="PeekDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Otw-l2-1pP"/>
                         <viewControllerLayoutGuide type="bottom" id="VA7-rK-hRx"/>
@@ -37,6 +37,10 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="I7y-ZR-AVD">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="j5I-qf-omQ" id="pam-6l-iGm"/>
+                                    <outlet property="delegate" destination="j5I-qf-omQ" id="0GP-jd-qf4"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -47,8 +51,11 @@
                             <constraint firstItem="I7y-ZR-AVD" firstAttribute="leading" secondItem="hRv-JE-3XN" secondAttribute="leading" id="cFE-47-dUn"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="QwD-t4-fVg"/>
+                    <navigationItem key="navigationItem" title="Peeks Feed" id="QwD-t4-fVg"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tableView" destination="I7y-ZR-AVD" id="jXt-gf-dOG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LHH-Gd-rWx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
