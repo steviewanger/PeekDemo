@@ -20,8 +20,11 @@ Alternating row colors: Break up the list of tweets via alternating row colors.
 
 
 Key Features:
+
 Table cells dynamically scale to the length of tweets.
+
 Swipe right on a table cell to retweet or delete the cell.
+
 Added some test cases for the models and tableview. Can expand on all models but this is just a proof of concept.
 
 Feel free to contact me about design choices!
