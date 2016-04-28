@@ -22,7 +22,14 @@ class TweetVC: UIViewController, UITableViewDelegate, UITableViewDataSource, Twi
     
     //MARK: - Init
     override func viewDidLoad() {
-        self.getTweets()
+        if Reachability.isConnectedToNetwork() {
+            self.getTweets()
+        }
+        else {
+            let controller = UIAlertController(title: "Internet Connection Required", message: "Please connect to the internet and then swipe to refresh", preferredStyle: .Alert)
+            controller.addAction(UIAlertAction(title: "Okay", style: .Default, handler: nil))
+        }
+        
         self.loadTableView()
         self.addRefreshViewController()
     }
@@ -162,6 +169,7 @@ class TweetVC: UIViewController, UITableViewDelegate, UITableViewDataSource, Twi
         return [deleteAction, retweetAction]
     }
     
+    //MARK: - Additional Functions
     private func isNearingEndOfTable(indexPath: NSIndexPath) -> Bool {
         let DELTA = 8
         return (search?.tweets.count)! - indexPath.row == DELTA
