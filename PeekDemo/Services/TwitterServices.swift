@@ -21,7 +21,7 @@ class TwitterServices {
     private let bearerToken = "AAAAAAAAAAAAAAAAAAAAAJxmuwAAAAAADXac5yOhMMSLmGKagcMMLbvi8V8%3DLW8TKuT660D4oDIiXjP8nA01pTg6FlaYwtTZnWUxrvmSOihnG1"
     private let SEARCH_URL = "https://api.twitter.com/1.1/search/tweets.json"
     
-    var delegate: TwitterServicesDelegate?
+    weak var delegate: TwitterServicesDelegate?
     
     //MARK: - Functions
     
