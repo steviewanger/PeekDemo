@@ -116,7 +116,7 @@ class TweetVC: UIViewController, UITableViewDelegate, UITableViewDataSource, Twi
     
     func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
         // If almost at the end of the tableview, then load more tweets
-        if (search?.tweets.count)! - indexPath.row == 4 && !paginating {
+        if self.isNearingEndOfTable(indexPath) && !paginating {
             paginating = true
             getNextTweets()
         }
@@ -160,5 +160,10 @@ class TweetVC: UIViewController, UITableViewDelegate, UITableViewDataSource, Twi
         })
         
         return [deleteAction, retweetAction]
+    }
+    
+    private func isNearingEndOfTable(indexPath: NSIndexPath) -> Bool {
+        let DELTA = 8
+        return (search?.tweets.count)! - indexPath.row == DELTA
     }
 }

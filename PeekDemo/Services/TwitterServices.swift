@@ -17,6 +17,7 @@ class TwitterServices {
     //MARK: - Properties
     private let cKey = "LUAruoWtjAkeyGQT2jSdbPBAn"
     private let cSecret = "lDkIyf83ioQgQuzFvalkv2zTzcTF194tvOLhH3gAUJ5nhwMRUo"
+    
     private let bearerToken = "AAAAAAAAAAAAAAAAAAAAAJxmuwAAAAAADXac5yOhMMSLmGKagcMMLbvi8V8%3DLW8TKuT660D4oDIiXjP8nA01pTg6FlaYwtTZnWUxrvmSOihnG1"
     private let SEARCH_URL = "https://api.twitter.com/1.1/search/tweets.json"
     
@@ -30,10 +31,6 @@ class TwitterServices {
         print(url)
         print("")
         getRequest(NSURL(string: url!)!, params: nil)
-    }
-    
-    func getNextTweets(path: String) {
-//        let url = 
     }
     
     private func getRequest(URL: NSURL, params: [String: String]?) {

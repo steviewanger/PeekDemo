@@ -25,7 +25,7 @@
         <!--Peeks Feed-->
         <scene sceneID="KIC-5J-Ar6">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="j5I-qf-omQ" customClass="TweetVC" customModule="PeekDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TweetVC" automaticallyAdjustsScrollViewInsets="NO" id="j5I-qf-omQ" customClass="TweetVC" customModule="PeekDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Otw-l2-1pP"/>
                         <viewControllerLayoutGuide type="bottom" id="VA7-rK-hRx"/>

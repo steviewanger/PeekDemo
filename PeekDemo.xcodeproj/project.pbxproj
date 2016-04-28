@@ -17,12 +17,15 @@
 		E82758FA1CD014180063CB31 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82758F91CD014180063CB31 /* TweetCell.swift */; };
 		E82758FC1CD014290063CB31 /* TweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E82758FB1CD014290063CB31 /* TweetCell.xib */; };
 		E82759011CD085A70063CB31 /* DatedRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82759001CD085A70063CB31 /* DatedRefreshView.swift */; };
+		E82759041CD203A50063CB31 /* SearchMetaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82759031CD203A50063CB31 /* SearchMetaTest.swift */; };
+		E82759081CD204AD0063CB31 /* SearchMetaJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = E82759071CD204AD0063CB31 /* SearchMetaJSON.json */; };
+		E82759091CD204C80063CB31 /* SearchMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82758F01CCF63910063CB31 /* SearchMeta.swift */; };
 		E8A068321CCEE045003CCF28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A068311CCEE045003CCF28 /* AppDelegate.swift */; };
 		E8A068371CCEE045003CCF28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A068351CCEE045003CCF28 /* Main.storyboard */; };
 		E8A0683A1CCEE045003CCF28 /* PeekDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8A068381CCEE045003CCF28 /* PeekDemo.xcdatamodeld */; };
 		E8A0683C1CCEE045003CCF28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A0683B1CCEE045003CCF28 /* Assets.xcassets */; };
 		E8A0683F1CCEE045003CCF28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A0683D1CCEE045003CCF28 /* LaunchScreen.storyboard */; };
-		E8A0684A1CCEE045003CCF28 /* PeekDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A068491CCEE045003CCF28 /* PeekDemoTests.swift */; };
+		E8A0684A1CCEE045003CCF28 /* TweetVCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A068491CCEE045003CCF28 /* TweetVCTest.swift */; };
 		E8A068551CCEF6BB003CCF28 /* TweetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A068541CCEF6BB003CCF28 /* TweetVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +52,8 @@
 		E82758F91CD014180063CB31 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 		E82758FB1CD014290063CB31 /* TweetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetCell.xib; sourceTree = "<group>"; };
 		E82759001CD085A70063CB31 /* DatedRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatedRefreshView.swift; sourceTree = "<group>"; };
+		E82759031CD203A50063CB31 /* SearchMetaTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMetaTest.swift; sourceTree = "<group>"; };
+		E82759071CD204AD0063CB31 /* SearchMetaJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SearchMetaJSON.json; sourceTree = "<group>"; };
 		E8A0682E1CCEE045003CCF28 /* PeekDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeekDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A068311CCEE045003CCF28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8A068361CCEE045003CCF28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,7 +62,7 @@
 		E8A0683E1CCEE045003CCF28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8A068401CCEE045003CCF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8A068451CCEE045003CCF28 /* PeekDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeekDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8A068491CCEE045003CCF28 /* PeekDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekDemoTests.swift; sourceTree = "<group>"; };
+		E8A068491CCEE045003CCF28 /* TweetVCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetVCTest.swift; sourceTree = "<group>"; };
 		E8A0684B1CCEE045003CCF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8A068541CCEF6BB003CCF28 /* TweetVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +139,15 @@
 			path = RefreshView;
 			sourceTree = "<group>";
 		};
+		E82759021CD203890063CB31 /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				E82759031CD203A50063CB31 /* SearchMetaTest.swift */,
+				E82759071CD204AD0063CB31 /* SearchMetaJSON.json */,
+			);
+			name = ModelTests;
+			sourceTree = "<group>";
+		};
 		E8A068251CCEE045003CCF28 = {
 			isa = PBXGroup;
 			children = (
@@ -176,7 +190,8 @@
 		E8A068481CCEE045003CCF28 /* PeekDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				E8A068491CCEE045003CCF28 /* PeekDemoTests.swift */,
+				E82759021CD203890063CB31 /* ModelTests */,
+				E8A068491CCEE045003CCF28 /* TweetVCTest.swift */,
 				E8A0684B1CCEE045003CCF28 /* Info.plist */,
 			);
 			path = PeekDemoTests;
@@ -277,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82759081CD204AD0063CB31 /* SearchMetaJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +369,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8A0684A1CCEE045003CCF28 /* PeekDemoTests.swift in Sources */,
+				E82759091CD204C80063CB31 /* SearchMeta.swift in Sources */,
+				E82759041CD203A50063CB31 /* SearchMetaTest.swift in Sources */,
+				E8A0684A1CCEE045003CCF28 /* TweetVCTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
