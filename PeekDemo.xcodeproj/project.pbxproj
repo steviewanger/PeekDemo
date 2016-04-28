@@ -16,7 +16,6 @@
 		E82758F71CCF70EA0063CB31 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82758F61CCF70EA0063CB31 /* User.swift */; };
 		E82758FA1CD014180063CB31 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82758F91CD014180063CB31 /* TweetCell.swift */; };
 		E82758FC1CD014290063CB31 /* TweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E82758FB1CD014290063CB31 /* TweetCell.xib */; };
-		E82759011CD085A70063CB31 /* DatedRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82759001CD085A70063CB31 /* DatedRefreshView.swift */; };
 		E82759041CD203A50063CB31 /* SearchMetaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82759031CD203A50063CB31 /* SearchMetaTest.swift */; };
 		E82759081CD204AD0063CB31 /* SearchMetaJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = E82759071CD204AD0063CB31 /* SearchMetaJSON.json */; };
 		E82759091CD204C80063CB31 /* SearchMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82758F01CCF63910063CB31 /* SearchMeta.swift */; };
@@ -51,7 +50,6 @@
 		E82758F61CCF70EA0063CB31 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E82758F91CD014180063CB31 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 		E82758FB1CD014290063CB31 /* TweetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetCell.xib; sourceTree = "<group>"; };
-		E82759001CD085A70063CB31 /* DatedRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatedRefreshView.swift; sourceTree = "<group>"; };
 		E82759031CD203A50063CB31 /* SearchMetaTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMetaTest.swift; sourceTree = "<group>"; };
 		E82759071CD204AD0063CB31 /* SearchMetaJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SearchMetaJSON.json; sourceTree = "<group>"; };
 		E8A0682E1CCEE045003CCF28 /* PeekDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeekDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,14 +129,6 @@
 			path = TableCells;
 			sourceTree = "<group>";
 		};
-		E82758FF1CD085A70063CB31 /* RefreshView */ = {
-			isa = PBXGroup;
-			children = (
-				E82759001CD085A70063CB31 /* DatedRefreshView.swift */,
-			);
-			path = RefreshView;
-			sourceTree = "<group>";
-		};
 		E82759021CD203890063CB31 /* ModelTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,7 +164,6 @@
 				E82758EF1CCF637C0063CB31 /* Models */,
 				E82758EA1CCF581C0063CB31 /* Services */,
 				E82758F81CD014110063CB31 /* TableCells */,
-				E82758FF1CD085A70063CB31 /* RefreshView */,
 				E8A068311CCEE045003CCF28 /* AppDelegate.swift */,
 				E8A068541CCEF6BB003CCF28 /* TweetVC.swift */,
 				E8A068351CCEE045003CCF28 /* Main.storyboard */,
@@ -360,7 +349,6 @@
 				E8A068321CCEE045003CCF28 /* AppDelegate.swift in Sources */,
 				E82758FA1CD014180063CB31 /* TweetCell.swift in Sources */,
 				E82758EC1CCF581C0063CB31 /* TwitterServices.swift in Sources */,
-				E82759011CD085A70063CB31 /* DatedRefreshView.swift in Sources */,
 				E82758F31CCF66520063CB31 /* TSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
